@@ -55,7 +55,7 @@ const cars: Car[] = [
 export default function Page({ }: Props) {
   return (
     <div>
-      <h1 className="text-3xl font-bold">Cars</h1>
+      
       <CarList cars={cars}/>
     </div>
   );
