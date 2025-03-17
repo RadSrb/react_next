@@ -1,4 +1,5 @@
-import React from 'react';
+"use client";
+import React, { useEffect, useState } from 'react';
 import CarList from '../components/cars/CarList';
 import { Car } from '@/lib/types/types';
 
@@ -53,10 +54,23 @@ const cars: Car[] = [
 ];
 
 export default function Page({ }: Props) {
+  const [showTop3, setShowTop3] = useState(false);
+
+  useEffect(() => {
+  }, [showTop3]);
+  
+  const displayedCars = showTop3 ? cars.slice(0, 2) : cars;
+
   return (
-    <div>
-      
-      <CarList cars={cars}/>
+    <div className='p-4'>
+      <button
+        className='bg-amber-300 p-2 rounded mb-4'
+        onClick={() => setShowTop3(!showTop3)}
+      >
+        {showTop3 ? "Show All Cars" : "Show Top 2 Cars"}
+      </button>
+
+      <CarList cars={displayedCars} />
     </div>
   );
 }
