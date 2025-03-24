@@ -24,6 +24,7 @@ const cars: Car[] = [
       serial: 2345,
       hp: 473,
     },
+    image: "/images/BMW_M3_CS_Touring_facelift.jpg",
   },
   {
     name: "Road King",
@@ -33,6 +34,7 @@ const cars: Car[] = [
       serial: 3456,
       hp: 503,
     },
+    image: "/images/mercedes-benz-amg.jpg",
   },
   {
     name: "Beast Mode",
@@ -42,6 +44,7 @@ const cars: Car[] = [
       serial: 4567,
       hp: 717,
     },
+    image: "/images/Dodge.jpg",
   },
   {
     name: "Green Arrow",
@@ -51,6 +54,7 @@ const cars: Car[] = [
       serial: 5678,
       hp: 450,
     },
+    image: "/images/ford-mustang.jpg",
   },
   {
     name: "Beatiful Car",
@@ -60,6 +64,7 @@ const cars: Car[] = [
       serial: 23085,
       hp: 1001,
     },
+    image: "/images/bugatti-veyron.jpg",
   }
 ];
 
