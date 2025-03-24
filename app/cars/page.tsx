@@ -52,12 +52,12 @@ const cars: Car[] = [
     },
   },
   {
-    name: "Green Arrow",
-    type: "Ford Mustang GT",
-    color: "green",
+    name: "Beatiful Car",
+    type: "Bugatti Veyron",
+    color: "black",
     motor: {
-      serial: 5678,
-      hp: 450,
+      serial: 23085,
+      hp: 1001,
     },
   }
 ];
