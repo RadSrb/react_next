@@ -16,8 +16,8 @@ const cars: Car[] = [
     },
   },
   {
-    name: "BMW M3",
-    type: "Siu",
+    name: "Ultra Car",
+    type: "BMW M3",
     color: "blue",
     motor: {
       serial: 2345,
@@ -51,6 +51,15 @@ const cars: Car[] = [
       hp: 450,
     },
   },
+  {
+    name: "Green Arrow",
+    type: "Ford Mustang GT",
+    color: "green",
+    motor: {
+      serial: 5678,
+      hp: 450,
+    },
+  }
 ];
 
 export default function Page({ }: Props) {
