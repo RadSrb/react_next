@@ -9,62 +9,68 @@ const cars: Car[] = [
   {
     name: "Super Car",
     type: "Audi RS3",
-    color: "black",
+    color: "white",
     motor: {
       serial: 1234,
       hp: 300,
     },
     image: "/images/audi-rs3.jpg",
+    price: 60000,
   },
   {
     name: "Ultra Car",
     type: "BMW M3",
-    color: "blue",
+    color: "grey",
     motor: {
       serial: 2345,
       hp: 473,
     },
     image: "/images/BMW_M3_CS_Touring_facelift.jpg",
+    price: 80000,
   },
   {
     name: "Road King",
     type: "Mercedes AMG C63",
-    color: "white",
+    color: "black",
     motor: {
       serial: 3456,
       hp: 503,
     },
     image: "/images/mercedes-benz-amg.jpg",
+    price: 90000, 
   },
   {
     name: "Beast Mode",
     type: "Dodge Charger SRT",
-    color: "red",
+    color: "grey",
     motor: {
       serial: 4567,
       hp: 717,
     },
     image: "/images/Dodge.jpg",
+    price: 100000,
   },
   {
     name: "Green Arrow",
     type: "Ford Mustang GT",
-    color: "green",
+    color: "grey",
     motor: {
       serial: 5678,
       hp: 450,
     },
     image: "/images/ford-mustang.jpg",
+    price: 70000, 
   },
   {
     name: "Beatiful Car",
     type: "Bugatti Veyron",
-    color: "black",
+    color: "grey",
     motor: {
       serial: 23085,
       hp: 1001,
     },
     image: "/images/bugatti-veyron.jpg",
+    price: 2000000,
   }
 ];
 

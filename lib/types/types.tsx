@@ -10,4 +10,5 @@ export interface Motor {
     color: string;
     motor: Motor;
     image?: string;
+    price?: number;
   }
