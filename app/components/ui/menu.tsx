@@ -16,6 +16,9 @@ export default function Menu({ }: Props) {
                 <li className="p-4 hover:bg-amber-200">             
                     <Link href="/trucks">Trucks</Link>
                 </li>
+                <li className="p-4 hover:bg-amber-200">             
+                    <Link href="/bikes">Bikes</Link>
+                </li>
             </ul>
         </div>
     )

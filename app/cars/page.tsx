@@ -16,8 +16,8 @@ const cars: Car[] = [
     },
   },
   {
-    name: "Speedster",
-    type: "BMW M3",
+    name: "BMW M3",
+    type: "Siu",
     color: "blue",
     motor: {
       serial: 2345,
@@ -58,8 +58,10 @@ export default function Page({ }: Props) {
 
   useEffect(() => {
   }, [showTop3]);
-  
-  const displayedCars = showTop3 ? cars.slice(0, 2) : cars;
+
+  const displayedCars = showTop3 ? cars.slice(0, 3) : cars;
+
+
 
   return (
     <div className='p-4'>
@@ -67,7 +69,7 @@ export default function Page({ }: Props) {
         className='bg-amber-300 p-2 rounded mb-4'
         onClick={() => setShowTop3(!showTop3)}
       >
-        {showTop3 ? "Show All Cars" : "Show Top 2 Cars"}
+        {showTop3 ? "Show All Cars" : "Show Top 3 Cars"}
       </button>
 
       <CarList cars={displayedCars} />
