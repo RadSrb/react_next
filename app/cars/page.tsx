@@ -62,7 +62,7 @@ const cars: Car[] = [
     price: 70000, 
   },
   {
-    name: "Beatiful Car",
+    name: "Beautiful Car",
     type: "Bugatti Veyron",
     color: "grey",
     motor: {
@@ -87,7 +87,7 @@ export default function Page({ }: Props) {
   return (
     <div className='p-4'>
       <button
-        className='bg-amber-300 p-2 rounded mb-4'
+        className='mt-30 bg-amber-300 p-2 rounded mb-4'
         onClick={() => setShowTop3(!showTop3)}
       >
         {showTop3 ? "Show All Cars" : "Show Top 3 Cars"}
