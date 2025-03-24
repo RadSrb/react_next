@@ -16,6 +16,7 @@ const [isActive, setIsActive] = React.useState(false);
   >
 
     <h2 className='font-bold text-3xl'>{car.name}</h2>
+    <img src={car.image} alt={car.name} className='car-image'/>
     <div>{car.type}</div>
     <div>{car.motor.serial}</div>
     <div>{car.motor.hp} hp</div>

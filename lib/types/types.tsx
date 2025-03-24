@@ -9,4 +9,5 @@ export interface Motor {
     type: string;
     color: string;
     motor: Motor;
+    image?: string;
   }

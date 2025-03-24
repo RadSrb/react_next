@@ -14,6 +14,7 @@ const cars: Car[] = [
       serial: 1234,
       hp: 300,
     },
+    image: "/images/audi-rs3.jpg",
   },
   {
     name: "Ultra Car",
